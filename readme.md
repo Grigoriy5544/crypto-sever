@@ -1,0 +1,1 @@
+### Hi, this is my adaptive layout of the site based on the layout from Figma
