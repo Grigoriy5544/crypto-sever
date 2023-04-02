@@ -64,9 +64,6 @@ body {
 
 .header {
 	height: 112px;
-}
-
-.header__container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
