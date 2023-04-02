@@ -1,131 +1,135 @@
 @font-face {
-	font-family: "Bebas Neue";
-src: url("font/Bebas Neue.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
+    font-family: "Bebas Neue";
+    src: url("font/Bebas Neue.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
 body {
-	background-color: black;
-	color: white;
+    background-color: black;
+    color: white;
 }
 
 .container {
-	max-width: 1800px;
-	width: 100%;
-	margin: 0 auto;
-	padding: 0 20px;
+    max-width: 1800px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .btn {
-	width: 300px;
-	height: 75px;
-	font-family: 'Bebas Neue', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 30px;
-	line-height: 75px;
-	cursor: pointer;
-	text-align: center;
-	background: transparent;
-	text-transform: uppercase;
+    width: 300px;
+    height: 75px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 75px;
+    cursor: pointer;
+    text-align: center;
+    background: transparent;
+    text-transform: uppercase;
 }
 
 .btn-blue {
-	background: linear-gradient(270deg, #004AAD 0%, #26A9E0 99.99%, #26A9E0 100%);
-	border-radius: 40px;
+    background: linear-gradient(270deg, #004AAD 0%, #26A9E0 99.99%, #26A9E0 100%);
+    border-radius: 40px;
 }
 
 .btn-trp {
-	border: 1px solid #26A9E0;
-	border-radius: 40px;
+    border: 1px solid #26A9E0;
+    border-radius: 40px;
 }
 
 .gradient1 {
-	height: 800px;
-	background-image: url(img/градиент.png);
-	background-repeat: no-repeat;
+    height: 800px;
+    background-image: url(img/градиент.png);
+    background-repeat: no-repeat;
 }
 
 .text-bg {
-	display: inline-block;
-	width: 130px;
-	height: 80px;
-	background: #26A9E0;
-	padding: 10px 8px;
+    display: inline-block;
+    width: 130px;
+    height: 80px;
+    background: #26A9E0;
+    padding: 10px 8px;
 }
 
 /* Hero */
 
 .hero {
-	height: 862px;
-	background: url("img/картинка.png") center right no-repeat;
+    height: 862px;
+}
+
+.hero .container {
+    background: url("img/картинка.png") center right no-repeat;
 }
 
 .header {
-	height: 112px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .buttons {
-	display: flex;
-	gap: 30px;
+    display: flex;
+    gap: 30px;
 }
 
 .header .buttons .btn {
-	font-size: 24px;
-	line-height: 50px;
+    font-size: 24px;
+    line-height: 50px;
 }
 
 .header .buttons .btn-blue {
-	width: 130px;
-	height: 50px;
+    width: 130px;
+    height: 50px;
 }
 
 .header .buttons .btn-trp {
-	width: 175px;
-	height: 50px;
+    width: 175px;
+    height: 50px;
 }
 
 .hero__wrapper {
-	padding-top: 117px;
-	padding-left: 100px;
+    padding-top: 117px;
+    padding-left: 100px;
 }
 
 .hero__title {
-	margin-bottom: 33px;
+    margin-bottom: 33px;
 }
 
 .hero__title, .hero__title .text-bg {
-	font-family: 'Bebas Neue', sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 70px;
-	line-height: 70px;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 
 .hero__description {
-	font-family: 'Open Sans', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .hero__description:not(:last-child) {
-	margin-bottom: 13px;
+    margin-bottom: 13px;
 }
 
 .hero__description:last-child {
-	margin-bottom: 66px;
+    margin-bottom: 66px;
 }
 
 /* Usage */
 
 .usage {
-	height: 800px;
+    height: 800px;
 }
