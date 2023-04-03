@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    max-width: 1800px;
+    max-width: 1640px;
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -54,6 +54,16 @@ body {
     height: 80px;
     background: #26A9E0;
     padding: 10px 8px;
+}
+
+.title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* Hero */
@@ -212,8 +222,63 @@ body {
 
 .usage {
     height: 800px;
+    padding-top: 48px;
+    padding-bottom: 136px;
 }
 
+.usage .text-bg {
+    width: 120px;
+    height: 65px;
+}
+
+.cards {
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    background: url("img/usage-background.png") center/contain no-repeat;
+    background-position-y: -50px;
+    gap: 30px;
+}
+
+.card {
+    height: 421px;
+    width: 380px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    border-top: 1px solid rgba(38, 169, 224, 1);
+    border-left: 1px solid rgba(38, 169, 224, 1);
+    border-right: 1px solid rgba(0, 74, 173, 1);
+    border-bottom: 1px solid rgba(0, 74, 173, 1);
+}
+
+.card > * {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.card-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+
+.card-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    width: 100%;
+}
 
 /* Adaptive */
 
@@ -222,12 +287,80 @@ body {
         max-width: 1024px;
     }
 
+    .title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .title .text-bg {
+        width: 80px;
+        height: 45px;
+    }
+
     .hero__wrapper {
         padding-left: 0;
     }
 
     .hero .container {
         background-size: 500px;
+    }
+
+    .hero__title {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .hero__title .text-bg {
+        font-size: 35px;
+        line-height: 35px;
+        width: 70px;
+        height: 45px;
+    }
+
+    .hero__description {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .hero .buttons {
+        flex-direction: column;
+    }
+
+    .hero .btn {
+        width: 250px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    .usage {
+        height: 1405px;
+    }
+
+    .cards {
+        width: 315px;
+        height: 400px;
+        gap: 40px;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        background: none;
+    }
+
+    .card {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+
+    .card-title {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .card-description {
+        font-size: 14px;
+        line-height: 19px;
     }
 }
 
